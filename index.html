@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Oleh Lovchuk">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/colorPack.css">
+    <script src="js/script.js"></script>
+    <title>Paint</title>
+</head>
+
+<body>
+    <header>
+        <div class="figuresSelector">
+            <div class="figures">
+                <div class="circle" onclick="ChangeFigure(0)"></div>
+                <div class="square" onclick="ChangeFigure(1)"></div>
+                <div class="triangle-right" onclick="ChangeFigure(2)"></div>
+                <div class="triangle-down" onclick="ChangeFigure(3)"></div>
+            </div>
+            <div id="currentFigure" class="currentFigureSelector">
+                <div class="circle" style="background-color: red;"></div>
+            </div>
+        </div>
+        <div class="colorsSelector">
+            <div id="red-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="chocolate-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="orange-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="coral-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="lightcoral-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="gold-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="yellow-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="lime-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="yellowgreen-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="olive-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="green-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="aqua-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="lightblue-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="lightskyblue-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="blue-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="darkblue-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="pink-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="violet-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="darkviolet-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="hotpink-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="slateblue-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="thistle-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="purple-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="rebeccapurple-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="wheat-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="white-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="gray-color" class="box-color" onclick="ChangeColor(this)"></div>
+            <div id="black-color" class="box-color" onclick="ChangeColor(this)"></div>
+        </div>
+    </header>
+    <div id="main"></div>
+</body>
+
+</html>
